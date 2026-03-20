@@ -1,0 +1,25 @@
+using System;
+
+namespace Pessoa
+{
+    class Pessoa
+    {
+        //atributos
+        public string nome;
+        public string email;
+        public string login;
+        public string senha;
+
+        //métodos
+
+        public void provarExistencia()
+        {
+            Console.WriteLine("Oi, eu existo!");
+        }
+        //método principal
+        static void Main(string[] args)
+        {
+
+        }
+    }
+}
