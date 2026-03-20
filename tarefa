@@ -1,0 +1,11 @@
+using System;
+namespace Tarefa
+{
+    class Tarefa
+    {
+        public string titulo;
+        public string descricao;
+        public string responsavel;
+        public string status;
+    }
+}
