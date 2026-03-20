@@ -1,0 +1,39 @@
+using System;
+namespace Tarefa
+{
+    class Principal
+    {
+        static void Main(string[] args)
+        {
+            // Criando os objetos de tarefa
+            Tarefa tarefa1 = new Tarefa();
+            Tarefa tarefa2 = new Tarefa();
+
+            // Inserir dados na tarefa1
+            tarefa1.titulo = "Desenvolver tela de login";
+            tarefa1.descricao = "Criar interface de autenticação do sistema";
+            tarefa1.responsavel = "Elias";
+            tarefa1.status = "Em andamento";
+
+            // Inserir dados na tarefa2
+            tarefa2.titulo = "Revisar banco de dados";
+            tarefa2.descricao = "Verificar e otimizar as queries do sistema";
+            tarefa2.responsavel = "José";
+            tarefa2.status = "Pendente";
+
+            // Recuperar e exibir os dados da tarefa1
+            Console.WriteLine(" Tarefa 1 ");
+            Console.WriteLine(tarefa1.titulo);
+            Console.WriteLine(tarefa1.descricao);
+            Console.WriteLine(tarefa1.responsavel);
+            Console.WriteLine(tarefa1.status);
+
+            // Recuperar e exibir os dados da tarefa2
+            Console.WriteLine(" Tarefa 2 ");
+            Console.WriteLine(tarefa2.titulo);
+            Console.WriteLine(tarefa2.descricao);
+            Console.WriteLine(tarefa2.responsavel);
+            Console.WriteLine(tarefa2.status);
+        }
+    }
+}
